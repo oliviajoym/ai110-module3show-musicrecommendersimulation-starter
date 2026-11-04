@@ -17,15 +17,18 @@ Replace this paragraph with your own summary of what your version does.
 
 ## How The System Works
 
-Explain your design in plain language.
+Real-World music recommendations are based on a mix of collaborative and content-based filtering.
+Collaborative filtering relies on behavior of multiple users, while content-based filtering relies on the details of the songs (lyrics, metadata, keywords).
 
 Some prompts to answer:
 
 - What features does each `Song` use in your system
-  - For example: genre, mood, energy, tempo
+  - Energy and acousticness
 - What information does your `UserProfile` store
+  - Scores of songs based on established system
 - How does your `Recommender` compute a score for each song
 - How do you choose which songs to recommend
+  - based on score ranking in userProfile
 
 You can include a simple diagram or bullet list if helpful.
 

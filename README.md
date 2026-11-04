@@ -23,14 +23,12 @@ Collaborative filtering relies on behavior of multiple users, while content-base
 Some prompts to answer:
 
 - What features does each `Song` use in your system
-  - Energy and acousticness
+  - The features that held the most weight based on the song list were energy and acousticness. The formulated weight of those two features will be used in each Song.
 - What information does your `UserProfile` store
-  - Scores of songs based on established system
+  - The information is the scores of songs based on established system.
 - How does your `Recommender` compute a score for each song
 - How do you choose which songs to recommend
-  - based on score ranking in userProfile
-
-You can include a simple diagram or bullet list if helpful.
+  - I will choose recommended songs based on score ranking in userProfile.
 
 ---
 

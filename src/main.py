@@ -10,7 +10,7 @@ You will implement the functions in recommender.py:
 """
 
 from src.recommender import load_songs, recommend_songs
-import tabulate
+from tabulate import tabulate
 
 
 def main() -> None:
